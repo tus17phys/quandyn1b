@@ -1,0 +1,187 @@
+\documentclass[11pt,a4paper]{jsarticle}
+	\usepackage{amsmath,amssymb}
+	\usepackage{amsfonts}
+	\usepackage{bm}
+	\usepackage[dvipdfmx]{graphicx}
+	\usepackage{ascmac}
+	\usepackage{okumacro}
+	\usepackage{titlesec}
+	\usepackage{here}%画像を強制的に指定場所に置く[Here]を使える
+	\usepackage{cases}%連立方程式など
+	\setlength{\textwidth}{\fullwidth}
+	\setlength{\textheight}{39\baselineskip}
+	\addtolength{\textheight}{\topskip}
+	\setlength{\voffset}{-0.5in}
+	\setlength{\headsep}{0.3in}
+	%
+	\makeatletter
+	\def\section{\@startsection {section}{1}{\z@}{-2.5ex plus -1ex minus -.2ex}{2.5 ex plus .2ex}{\LARGE\bf}}
+	\def\subsection{\@startsection {subsection}{1}{\z@}{-1.5ex plus -1ex minus -.2ex}{2.3 ex plus .2ex}{\Large\bf}}
+	\def\subsubsection{\@startsection {subsubsection}{1}{\z@}{-2.5ex plus -1ex minus -.2ex}{.3 ex plus .2ex}{\large \bf}}
+	\makeatother
+
+	\makeatletter
+	    \renewcommand{\theequation}{%
+	    \thesection.\arabic{equation}}
+	    \@addtoreset{equation}{section}
+	  \makeatother
+
+
+	\newcommand{\divergence}{\mathrm{div}\,}  %ダイバージェンス
+	\newcommand{\grad}{\mathrm{grad}\,}  %グラディエント
+	\newcommand{\rot}{\mathrm{rot}\,}  %ローテーション
+	\newcommand{\pt}{\partial}  %パーシャル
+	\newcommand{\df}{\overset{\mathrm{def}}{=}} %def
+	\newcommand{\non}{\nonumber}  %\nonumber
+	\newcommand{\dis}{\displaystyle}
+	\newcommand{\f}[1]{\framebox[1cm]{\textgt{\small #1}}}
+	\newcommand{\kine}{\frac{1}{2}mv^2} %運動エネルギー
+	\pagestyle{plain}
+		%\markright{\footnotesize \sf 物理数学1A 第一回中間テスト(2017) 解答例 \ %左上のタイトル
+		%{＠sakuPonit}} %名前
+\begin{document}
+%% 目次
+\tableofcontents
+\newpage
+
+\section{光の粒子性と電子の波動性 (第一回 2018/9/18)}
+
+	\subsection{Einsteinによる光の粒子性}
+		\subsubsection{光子 -photon-}
+
+			振動数$\nu$，波長$\lambda$の電磁波は，
+			「エネルギー
+			\begin{equation}
+				E = h \nu \label{ehnu}
+			\end{equation}
+			運動量
+			\begin{equation}
+				 p = \frac{h}{\lambda} \label{phl}
+			\end{equation}
+			の光子の集合体」
+			であるとした．\par
+			光子について
+			\begin{equation}
+				\lambda = \frac{h}{\nu} \label{lhnu}
+			\end{equation}
+			より(\ref{phl})は，
+			\begin{equation}
+				p = h\frac{\nu}{c} \label{phnu}
+			\end{equation}
+
+			(\ref{ehnu})，(\ref{phnu})より，
+			\begin{equation}
+				E = {c}{p} ←光子について成り立つ
+			\end{equation}
+		\subsubsection{(注)相対論}
+				総エネルギーの式
+				\begin{equation}
+					E^2 = {m_0}^2c^4 + p^2 c^2
+				\end{equation}
+
+				（$m_0$：静止質量，$p$：$mv$）
+				運動質量$m$は
+				\begin{equation}
+					m\sqrt{1 - \frac{v^2}{c^2}} = m_0
+				\end{equation}
+				光子について
+				$v = c$より
+				$m_0 = 0$
+				よって
+				$E = pc$
+				で一致している．
+		\subsubsection{[問]光子}
+				あるレーザーポインター
+				(出力5mW 赤色(\lambda=650nm))\par
+					(1)このレーザ＝の光子の運動量は？ \par
+					(2)このレーザーから毎秒何個の光子が出ているか？
+
+	\subsection{物質波 -matter wave-}
+		\subsubsection{物質波}
+			de Broglieは光の粒子性を逆に読み，物質が波動を伴うとした．
+			エネルギー$E$，運動量$p$を持つ粒子は，
+			\begin{eqnarray}
+				\nu = \frac{E}{h} \\
+				\lambda = \frac{h}{p}
+			\end{eqnarray}
+			の波動を伴う．（$\lambda$はde Broglie波長）\par
+			粒子について
+			\begin{equation}
+				\lambda = \frac{h}{p} = \frac{h}{mv}
+			\end{equation}
+			(光子の場合$\lambda = c/\nu$) \\
+			粒子の場合$\lambda = v/\nu$.
+			$v$は位相速度．
+
+			\subsubsection{[問] }
+				ド・ブロイ波長 0.2nmの中性子の速度vを計算せよ．
+				ただし，中性子の質量$ m = 1.675\times10^{27} $kgとする．
+		\subsubsection{光電効果-photoelectric effect-}
+
+				\begin{equation}
+					\kine = h \nu - W
+				\end{equation}
+				$\kine$は電子の運動エネルギー，
+				$W$は仕事関数．
+		\subsubsection{コンプトン効果-Compton effect-}
+
+			\begin{numcases}
+				{}
+				(mv)^2 = \left(\frac{n}{\lambda} \right) ^2
+				+ \left(\frac{n}{\lambda'}\right)^2
+				- 2 \frac{n}{\lambda}\frac{n}{\lambda'}\cos \theta & \\
+				\kine = \frac{hc}{\lambda} - \frac{hc}{\lambda '} &
+			\end{numcases}
+
+			これらから，コンプトン公式
+			\begin{equation}
+				(\Delta\lambda \df ) \lambda' - \lambda = \frac{h}{mc}(1-\cos\theta)
+			\end{equation}
+			が導ける．なお$\dis \frac{h}{mc} = 2.4 \times 10^{-12}$mは
+			コンプトン波長と呼ばれる．
+
+
+		\subsubsection{[問]コンプトン効果}
+			$\lambda = 0.124$nmのX線を用いてコンプトン散乱実験する．
+			散乱されたX線の波長が1％伸びるような散乱角$\theta$ を求めよ．
+
+\section{波動関数と確率密度関数 (第三回 2018/10/02)}
+	\subsection{Problem 1.4 / $\Psi(x,t)$が実数関数}
+
+		\begin{itembox}[l]{Problem 1.4}
+			At time t = 0 a particle is represented by the wave function
+			\begin{equation}
+				\Phi(x,t) =
+				\begin{cases}
+					A \dis{\frac{x}{a}} & \text{if $0 \leq x \leq a$} \\ \\
+					A \dis{\frac{(b-x)}{(b-a)}} & \text{if $a \leq x \leq b$} \\ \\
+					0 & \text{otherwise}
+				\end{cases}
+			\end{equation}
+			where $A$, $a$, and $b$ are constants.\\
+			(a) Normalize $Ψ$ (that is, find $A$, in terms of $a$ and $b$).\\
+			(b) Sketch $Ψ(x, 0)$, as a function of $x$.\\
+			(c) Where is the particle most likely to be found, at $t = 0$?\\
+			(d) What is the probability of finding the particle to the left of $a$? Check your result in the limiting cases $b = a$ and $b = 2a$.\\
+			(e) What is the expectation value of $x$?
+		\end{itembox}
+
+		[解答] \\
+		(a)$\Psi$を規格化せよ．
+			\begin{eqnarray}
+				\rho = \lvert \Psi \rvert
+			\end{eqnarray}
+		\\
+		(b)
+
+
+	\subsection{Problem 1.5 / $\Psi(x,t)$が複素関数}
+
+
+
+
+
+
+
+
+\end{document}
