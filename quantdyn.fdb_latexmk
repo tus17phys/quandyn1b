@@ -1,9 +1,9 @@
 # Fdb version 3
-["dvipdf"] 1538663840 "quantdyn.dvi" "quantdyn.pdf" "quantdyn" 1538663841
-  "quantdyn.dvi" 1538663840 8936 149226d0b590dca8b5b1cfaf909473b4 "latex"
+["dvipdf"] 1538664950 "quantdyn.dvi" "quantdyn.pdf" "quantdyn" 1538664950
+  "quantdyn.dvi" 1538664950 8964 1fcb4c0505841049653d5d10c0ed4830 "latex"
   (generated)
   "quantdyn.pdf"
-["latex"] 1538663840 "quantdyn.tex" "quantdyn.dvi" "quantdyn" 1538663841
+["latex"] 1538664949 "quantdyn.tex" "quantdyn.dvi" "quantdyn" 1538664950
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1480098698 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1480098698 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -62,11 +62,11 @@
   "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
   "/usr/local/texlive/2018/texmf-var/web2c/euptex/uplatex.fmt" 1537760815 4470727 e41f0943682f3ad441ab9183c3e0f9ee ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "quantdyn.aux" 1538663840 1482 31b3053112f8467079999888ec7bbfad ""
-  "quantdyn.tex" 1538663839 5985 09ca0c751f2a45dfa79eb1da96b718be ""
-  "quantdyn.toc" 1538663840 1119 504692217fdab842c23510bab593e96c ""
+  "quantdyn.aux" 1538664950 1641 1ebaf8d1ec89131a33be389818df63a5 ""
+  "quantdyn.tex" 1538664949 6034 d55f31670d11a73a200b57ffe6e87ac9 ""
+  "quantdyn.toc" 1538664950 1242 a05e6074122c65de373f4308f971e08f ""
   (generated)
-  "quantdyn.log"
   "quantdyn.toc"
-  "quantdyn.dvi"
   "quantdyn.aux"
+  "quantdyn.dvi"
+  "quantdyn.log"
