@@ -187,13 +187,96 @@
 			Time-Indpendent \sceq (TISE) \par
 			TISE:
 				\begin{equation}
-					-\frac{\hbar^2}{2m}\frac{d^2 \psi}{dx^2} + V\psi = E\psi
+					-\frac{\hbar^2}{2m}\frac{d^2 \psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
 				\end{equation}
 			$\psi(x)$が規格化可能のとき，$E$は実数であることを示せ．
+			(ちなみに今後，ポテンシャル$V(x)$は明示されない限り実数関数．
+			（ちなみにちなみに$V$が複素関数になるのは特殊な研究をするときなどだけらしい）)
+
+		\subsubsection{}
+			TISEの両辺の左から$\psi^*$をかけて$-\infty 〜 \infty$で積分
+			\begin{equation}
+				-\frac{\hbar^2}{2m}\int^{\infty}_{-\infty}\psi^*
+				\frac{d^2 \psi(x)}{dx^2} dx
+				+ \int^{\infty}_{-\infty}V(x)\psi^*\psi(x) dx
+				 = E\int^{\infty}_{-\infty} \psi^*\psi(x) dx
+			\end{equation}
+
+			今，$\psi$は規格化可能より，$\int^{\infty}_{-\infty}|\psi|^2 dx = 1$(=右辺).\par
+			また，
+				\begin{eqnarray}
+					-\frac{\hbar^2}{2m}\int^{\infty}_{-\infty}\psi^*
+					\frac{d^2 \psi(x)}{dx^2} dx \\
+					& = & -\frac{\hbar^2}{2m} ([\psi^* \frac{d\psi}{dx}]^{\infty}_[-\infty] - \int^{\infty}_{-\infty}(\frac{d\psi^2}{dx})(\frac{d\psi}{dx})dx) \\
+					& = & \frac{\hbar^2}{2m}\int^{\infty}_{-\infty}|\psi|^2 dx
+				\end{eqnarray}
+			よって，
+			\begin{equation}
+				E = \int^{\infty}_{-\infty}(\frac{\hbar^2}{2m}|\frac{d\psi}{dx}|^2 + V(x)|\psi|^2)dx
+			\end{equation}
+			（積分の中身の二項はそれぞれ実数）よって$E$は実数．
+
+	\subsection{Problem2.1(b)}
+		\subsubsection{subsubsection name}
+			(注)$\psi_1$と$\psi_2$が同じ$E$に対するTISEの解であるとする．つまり
+				\begin{eqnarray}
+					-\frac{\hbar^2}{2m} \frac{d^2}{dx^2}\psi_1 + V\psi_1 & = & E\psi_1 \\
+					-\frac{\hbar^2}{2m} \frac{d^2}{dx^2}\psi_2 + V\psi_2 & = & E\psi_2
+				\end{eqnarray}
+				(編注　↑右辺Eはそれぞれ黄色で強調)
+
+			(証明)
+				\begin{eqnarray}
+					-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}(C_1 \psi_1 + C_2 \psi_2) + V(C_1\psi_1 + C_2 \psi_2) \\
+					= C_1(-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}\psi_1 + V\psi_1) +C_2(-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}\psi_2 + V\psi_2) \\
+					= C_1 E \psi_1 + C_2 E \psi_2 \\
+					= E(C_1 \psi_1 + C_2 \psi_2)
+				\end{eqnarray}
+				(編注　最後の行のEは黄色で強調）
+
+		\subsubsection{subsubsection name}
+				TISE:
+					\begin{equation}
+						-\frac{\hbar^2}{2m} \frac{d^2}{dx^2}\psi + V\psi & = & E\psi
+					\end{equation}
+				$V,E$はreal \\
+				複素共役をとると，
+					\begin{equation}
+						-\frac{\hbar^2}{2m} \frac{d^2}{dx^2}\psi^* + V\psi^* & = & E\psi^*
+					\end{equation}
+				$\psi,\psi^*$はそれぞれ共に同じ$E$に対する解である．
+					\begin{eqnarray}
+						Z = a + bi \\
+						Z^* = a - bi \\
+						Z + Z^* = 2a = 2Re[Z] \\
+						Z - Z^* = 2bi
+					\end{eqnarray}
+				今，以下の線型結合を考える
+					\begin{eqnarray}
+						\psi_+ (x) & = & \psi(x) + \psi^* (x) \\
+						\psi_- (x) & = & (\psi(x) - \psi^* (x) )i
+					\end{eqnarray}
+				これらは，同じ$E$に対するTISEを満たす．
+					\begin{eqnarray}
 
 
+						\psi^*_+(x) = \psi_+(x) \\
+						\psi^*_-(x) = \psi_-(x)
+					\end{eqnarray}
+				より，$\psi_+(x)$と$\psi_-(x)$は実数関数． \\
+				また，
+					\begin{equation}
+						\psi(x) = \frac{1}{2}(\psi_+ - i\psi_-)
+					\end{equation}
+				どんな$\psi$も，２つの実関数$\psi_+(x)$と$\psi_-(x)$の線型結合で表せる．
 
-
+	\subsection{Problem2.1(c)}
+		\subsubsection{subsubsection name}
+			$\psi(x)$がTISEの解とする
+				\begin{equation}
+					-\frac{\hbar^2}{2m} \frac{d^2}{dx^2}\psi + V\psi & = & E\psi
+				\end{equation}
+			〜〜とすると（式）
 
 
 \end{document}

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.9.24)  16 OCT 2018 14:44
+This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.9.24)  16 OCT 2018 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -286,7 +286,301 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 6.47278pt on input line 157.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 157.
- [3] [4] [5] (./quantdyn.aux) ) 
+ [3] [4]
+./quantdyn.tex:240: Misplaced alignment tab character &.
+l.240 ...bar^2}{2m} \frac{d^2}{dx^2}\psi + V\psi &
+                                                   = & E\psi
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:240: Misplaced alignment tab character &.
+l.240 ...2}{2m} \frac{d^2}{dx^2}\psi + V\psi & = &
+                                                   E\psi
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:245: Misplaced alignment tab character &.
+l.245 ...2}{2m} \frac{d^2}{dx^2}\psi^* + V\psi^* &
+                                                   = & E\psi^*
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:245: Misplaced alignment tab character &.
+l.245 ...m} \frac{d^2}{dx^2}\psi^* + V\psi^* & = &
+                                                   E\psi^*
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[5]
+./quantdyn.tex:261: Missing $ inserted.
+<inserted text> 
+                $
+l.261 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./quantdyn.tex:261: Missing } inserted.
+<inserted text> 
+                }
+l.261 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./quantdyn.tex:261: Missing } inserted.
+<inserted text> 
+                }
+l.261 
+      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./quantdyn.tex:261: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.261 
+      
+I'm guessing that you meant to end an alignment here.
+
+./quantdyn.tex:261: Missing { inserted.
+<inserted text> 
+                {
+l.261 
+      
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./quantdyn.tex:261: Missing $ inserted.
+<inserted text> 
+                $
+l.261 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./quantdyn.tex:261: Missing $$ inserted.
+<to be read again> 
+                   \par 
+l.261 
+      
+Displays can use special alignments (like \eqalignno)
+only if nothing but the alignment itself is between $$'s.
+
+./quantdyn.tex:263: Missing $ inserted.
+<inserted text> 
+                $
+l.263 ^^I^^I^^I^^I^^I^^I\psi
+                            ^*_+(x) = \psi_+(x) \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./quantdyn.tex:264: Misplaced alignment tab character &.
+\reserved@a ->&
+                & &
+l.264 ^^I^^I^^I^^I^^I^^I\psi
+                            ^*_-(x) = \psi_-(x)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:264: Misplaced alignment tab character &.
+\reserved@a ->& &
+                  &
+l.264 ^^I^^I^^I^^I^^I^^I\psi
+                            ^*_-(x) = \psi_-(x)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:264: Misplaced alignment tab character &.
+\reserved@a ->& & &
+                   
+l.264 ^^I^^I^^I^^I^^I^^I\psi
+                            ^*_-(x) = \psi_-(x)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:264: Misplaced \cr.
+\@@eqncr ...l \@eqnswtrue \global \@eqcnt \z@ \cr 
+                                                  
+l.264 ^^I^^I^^I^^I^^I^^I\psi
+                            ^*_-(x) = \psi_-(x)
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:264: Misplaced \noalign.
+\@xeqncr [#1]->\ifnum 0=`{\fi }\@@eqncr \noalign 
+                                                 {\penalty \@eqpen \vskip \j...
+l.264 ^^I^^I^^I^^I^^I^^I\psi
+                            ^*_-(x) = \psi_-(x)
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+./quantdyn.tex:264: Missing $ inserted.
+<inserted text> 
+                $
+l.264 ^^I^^I^^I^^I^^I^^I\psi
+                            ^*_-(x) = \psi_-(x)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./quantdyn.tex:264: Missing } inserted.
+<inserted text> 
+                }
+l.264 ^^I^^I^^I^^I^^I^^I\psi
+                            ^*_-(x) = \psi_-(x)
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./quantdyn.tex:264: Extra }, or forgotten \endgroup.
+\@xeqncr ... \@eqpen \vskip \jot \vskip #1\relax }
+                                                  
+l.264 ^^I^^I^^I^^I^^I^^I\psi
+                            ^*_-(x) = \psi_-(x)
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./quantdyn.tex:264: Missing $ inserted.
+<inserted text> 
+                $
+l.264 ^^I^^I^^I^^I^^I^^I\psi
+                            ^*_-(x) = \psi_-(x)
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./quantdyn.tex:265: Misplaced alignment tab character &.
+\reserved@a ->&
+                & &
+l.265 ^^I^^I^^I^^I^^I\end{eqnarray}
+                                   
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:265: Misplaced alignment tab character &.
+\reserved@a ->& &
+                  &
+l.265 ^^I^^I^^I^^I^^I\end{eqnarray}
+                                   
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:265: Misplaced alignment tab character &.
+\reserved@a ->& & &
+                   
+l.265 ^^I^^I^^I^^I^^I\end{eqnarray}
+                                   
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:265: Misplaced \cr.
+\@@eqncr ...l \@eqnswtrue \global \@eqcnt \z@ \cr 
+                                                  
+l.265 ^^I^^I^^I^^I^^I\end{eqnarray}
+                                   
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:265: Extra }, or forgotten $.
+\endeqnarray ->\@@eqncr \egroup 
+                                \global \advance \c@equation \m@ne $$\@ignor...
+l.265 ^^I^^I^^I^^I^^I\end{eqnarray}
+                                   
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./quantdyn.tex:265: Missing $ inserted.
+<inserted text> 
+                $
+l.265 ^^I^^I^^I^^I^^I\end{eqnarray}
+                                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./quantdyn.tex:277: Misplaced alignment tab character &.
+l.277 ...bar^2}{2m} \frac{d^2}{dx^2}\psi + V\psi &
+                                                   = & E\psi
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./quantdyn.tex:277: Misplaced alignment tab character &.
+l.277 ...2}{2m} \frac{d^2}{dx^2}\psi + V\psi & = &
+                                                   E\psi
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[6] (./quantdyn.aux) ) 
 Here is how much of TeX's memory you used:
  2348 strings out of 493270
  27670 string characters out of 6145018
@@ -296,4 +590,4 @@ Here is how much of TeX's memory you used:
  934 hyphenation exceptions out of 8191
  27i,14n,27p,226b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on quantdyn.dvi (5 pages, 10092 bytes).
+Output written on quantdyn.dvi (6 pages, 16912 bytes).
