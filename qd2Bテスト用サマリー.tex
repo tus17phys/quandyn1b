@@ -153,7 +153,7 @@
 			\end{itemize}
 			\end{itembox}
 \section{2章　ミクロの世界の力学の仕組み}
-	\subsection{2.1 1次元の弦の波動方程式}
+	\subsection{1次元の弦の波動方程式}
 		位置$x$と時間$t$に関する弦の振動$y(x,t)$は，力学的考察により以下の偏微分方程式を満たす．
 		（弦の波動方程式）
 			\begin{equation}
@@ -174,7 +174,7 @@
 		考えられる解($\sin,\cos,\exp$)を式(\ref{eq2.1})に代入すると，
 		端数と周波数について以下の関係がわかる．
 		\begin{equation}
-			\omega ^2 = v^2 k^2( \therefore \omega = vk) \label{2.2}
+			\omega ^2 = v^2 k^2( \therefore \omega = vk) \label{eq2.2}
 		\end{equation}
 		これを（この波動方程式についての）{\bf 分散関係}といい，振動について時間と空間の関係を示す．
 		また，$v$を位相速度という．
@@ -186,5 +186,30 @@
 							進行波解で位相が一定の所の進む速度を，位相速度という．
 			\end{itemize}
 			\end{itembox}
+	\subsection{シュレーディンガー方程式}
+		シュレーディンガー方程式を発見的に導く．（古典力学の波動方程式からの類推で導く）
+		（束縛されない自由な）電子を例にする．電子のエネルギーを，粒子的な記述，波動的な記述の
+		二通りで表し，ドブロイ波のスケールでの分散関係を求める，2章1節の分散関係および波動方程式
+		の関係から逆算して，ドブロイ波のスケール（ミクロ）での波動方程式の形を類推する．
+		まず，粒子的な記述として$$ E = \frac{p^2}{2m}$$
+		と書ける．次にドブロイ波の表記として，$$ E = \hbar \omega $$
+		と書ける．また，その運動量$p = \hbar k$より（$k$は波数）
+		\begin{equation}
+			\hbar \omega = \frac{\hbar ^2 k^2}{2m} \label{eq2.3}
+		\end{equation}
+		が得られる．\textcolor{blue}{(式(\ref{eq2.1}),(\ref{eq2.2})の関係を見ながら見て欲しい)}
+		式(\ref{eq2.3})の左辺は時間について，右辺は位置についての項であるからこれもまた
+		波動方程式から導かれる{\bf 分散関係}であると考える．
+		\par 前節の古典的考え方では，式(\ref{eq2.1})
+		$$\frac{\pt^2}{\pt t^2} \textcolor{blue}{(時間に関係)}
+		= \frac{\pt^2}{\pt x^2}\textcolor{blue}{(位置に関係)}$$
+		から式(\ref{eq2.2})
+		$$\omega ^2 \textcolor{blue}{(時間に関係)} = k^2 \textcolor{blue}{(位置に関係)}$$
+		が導かれた．ここから類推して，
+		逆に式(\ref{eq2.3})
+		$$\omega \textcolor{blue}{(時間に関係)} = k^2 \textcolor{blue}{(位置に関係)}$$
+		は$$\frac{\pt}{\pt t} \textcolor{blue}{(時間に関係)}
+				= \frac{\pt^2}{\pt x^2}\textcolor{blue}{(位置に関係)}$$である偏微分方程式
+		（波動方程式）から導き出されるのではないかと考える．
 
 \end{document}
