@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.9.24)  1 DEC 2018 16:14
+This is e-upTeX, Version 3.14159265-p3.8.0-u1.23-180226-2.6 (utf8.uptex) (TeX Live 2018) (preloaded format=uplatex 2018.9.24)  1 DEC 2018 18:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -265,14 +265,35 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 56.
  [1
 
-] [2] [3] (./qd2Bテスト用サマリー.aux) ) 
+] [2]
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 156.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 156.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 156.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 156.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 156.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 156.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 179.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 179.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 179.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 179.
+ [3] [4] (./qd2Bテスト用サマリー.aux) ) 
 Here is how much of TeX's memory you used:
- 2462 strings out of 493270
- 29724 string characters out of 6145018
+ 2475 strings out of 493270
+ 29894 string characters out of 6145018
  112696 words of memory out of 5000000
- 6371 multiletter control sequences out of 15000+600000
- 13776 words of font info for 66 fonts, out of 8000000 for 9000
+ 6383 multiletter control sequences out of 15000+600000
+ 15064 words of font info for 73 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  27i,6n,27p,246b,255s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on qd2Bテスト用サマリー.dvi (3 pages, 13656 bytes).
+Output written on qd2Bテスト用サマリー.dvi (4 pages, 16948 bytes).

@@ -152,6 +152,39 @@
 							確認することができる．基底状態では，位置と運動量の不確定性関係が最小となる．
 			\end{itemize}
 			\end{itembox}
-
+\section{2章　ミクロの世界の力学の仕組み}
+	\subsection{2.1 1次元の弦の波動方程式}
+		位置$x$と時間$t$に関する弦の振動$y(x,t)$は，力学的考察により以下の偏微分方程式を満たす．
+		（弦の波動方程式）
+			\begin{equation}
+				\frac{\pt^2 y(x,t)}{\pt t^2} = v^2 \frac{\pt^2 y(x,t)}{\pt x^2} \label{eq2.1}
+			\end{equation}
+		この波動方程式の解は2つ考えられる．
+		\begin{itemize}
+			\item $y = A\sin{(\pm kx - \omega t)}$，$y = A \cos{(\pm kx - \omega t)}$
+			\item $y = A\exp{[i(\pm kx - \omega t)]}$
+		\end{itemize}
+		\textcolor{blue}{
+		・ここで$k = 2\pi/\lambda$[rad/m]である．これは波数と呼ばれ，
+		「1mあたりの位相(1メートルで何rad進むか)」を示す．周波数$\omega = 2\pi/t$[rad/t]
+		が「1sあたりの位相」であることと対照的である．\\
+		・$\pm kx$の符号はそれぞれ波が$\pm x$方向に進むことを示す．時刻$t$の方は+の
+		1方向のみに進むので$\pm$とはならない．(数学的にはどちらを$\pm$にしてもよい．)
+		}\\
+		考えられる解($\sin,\cos,\exp$)を式(\ref{eq2.1})に代入すると，
+		端数と周波数について以下の関係がわかる．
+		\begin{equation}
+			\omega ^2 = v^2 k^2( \therefore \omega = vk) \label{2.2}
+		\end{equation}
+		これを（この波動方程式についての）{\bf 分散関係}といい，振動について時間と空間の関係を示す．
+		また，$v$を位相速度という．
+		\begin{itembox}[l]{2.1節のまとめ　1次元の弦の波動方程式}
+			\begin{itemize}
+				\item 古典的な弦を伝わる波を記述する波動方程式は，三角関数
+							や指数関数で表される進行波解をもつ．
+				\item 波数と角周波数の関係を分散関係という．
+							進行波解で位相が一定の所の進む速度を，位相速度という．
+			\end{itemize}
+			\end{itembox}
 
 \end{document}
